@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: -1px; 
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+
+    display: block;
+    position: relative;
+}
+ul li a{
+    color: rgb(14, 14, 14);
+    font-weight: 600;
+}
+ul li:hover {
+    background-color: rgb(228, 228, 228);
+}
+.close {
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    visibility: hidden; 
+}
+li:hover .close {
+    visibility: visible;
+}
+
+body{
+    background-color: #0c0e14;
+    padding-bottom: 1000px;
+}
+
+.footer{
+    background-color: #000000;
+    color: rgb(197, 197, 197);
+}
+
+.footer a{
+    color: #ecce7c;
+}
+
+.footer a:hover{
+    color: #6493c9;
+}
+
+
+.navbar{
+    background-blend-mode: darken;
+    background-color: #6e7685;
+    background-image: url(https://fixthephoto.com/images/content/night-sky-photoshop-overlays-191608800716.jpg);
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    overflow: visible;
+    width: 8px;
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: rgb(61, 61, 61);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #030303; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #0d6efd;
+    border-radius: 10px;
+}
+
+
+.badge {
+    background-color: #FFC107;
+    color: #000000;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 5px;
+    padding-bottom: 5px;
+
+}
+
+#app{
+    padding-bottom: 600px;
+}
+
+.fa-trash{
+    color: #CC1F28;
+}
+
+.dropdown-menu{
+    background-color: #d1d7dd;
+}
+
+.btn-fav-clicked{
+    background-color: red;
+}
